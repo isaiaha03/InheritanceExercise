@@ -4,32 +4,6 @@ namespace Inheritance
 {
     class Program
     {
-        class Animal
-        {
-
-            public int Age { get; set; }
-            public string Species { get; set; }
-            public int Legs { get; set; }
-            public bool IsDomesticated { get; set; }
-        }
-
-        class Bird : Animal
-        {
-
-            public string Color { get; set; }
-            public bool CanFly { get; set; }
-            public bool HasBeak { get; set; }
-            public string MigrationPattern { get; set; }
-        }
-
-        class Reptile : Animal
-        {
-
-            public bool IsColdBlooded { get; set; }
-            public string ScaleType { get; set; }
-            public bool CanRegenerate { get; set; }
-            public bool HasTail { get; set; }
-        }
         static void Main(string[] args)
         {
             // TODO Be sure to follow best practice when creating your classes
